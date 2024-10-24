@@ -182,7 +182,7 @@ export default function About(
     size="m"
     style={{ marginBottom: '16px' }}  // Apply margin using inline styles
     data-border="rounded"
-    icon="download"
+   
 />
 
                         <Heading
