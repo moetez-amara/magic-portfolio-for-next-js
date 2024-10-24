@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Industrial Systems Engineer',
     avatar:    '/images/avatar.jpg',
-    //location:  'Africa/Tunis',        // Updated to reflect your location
+    location:  'Africa/Tunis',        // Updated to reflect your location
     languages: ['English: professional proficiency', 'French: professional proficiency', 'Arabic: Nativ']  // Optional: Updated languages
 }
 
