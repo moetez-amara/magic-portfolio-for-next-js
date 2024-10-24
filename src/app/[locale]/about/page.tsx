@@ -174,13 +174,15 @@ export default function About(
                         )}
                          {/* New Download CV Button */}
                          <Button
-    href="public\CV_Moetez_Amara_Industrial_engineer_digital_supply_chain_specialist.pdf"
-    label="Download CV"
-    prefixIcon="download"
+    href="/CV_Moetez_Amara_Industrial_engineer_digital_supply_chain_specialist.pdf"
+    //download="CV_Moetez_Amara_Industrial_engineer_digital_supply_chain_specialist"
+    label="Download CV PDF"
+    
     variant="primary"
     size="m"
     style={{ marginBottom: '16px' }}  // Apply margin using inline styles
     data-border="rounded"
+    icon="download"
 />
 
                         <Heading
