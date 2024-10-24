@@ -9,7 +9,7 @@ const person = {
     role:      'Industrial Systems Engineer',
     avatar:    '/images/avatar.jpg',
     location:  'Africa/Tunis',        // Updated to reflect your location
-    languages: ['English: professional proficiency', 'French: professional proficiency', 'Arabic: Nativ']  // Optional: Updated languages
+    languages: ['English: professional proficiency', 'French: professional proficiency', 'Arabic: Native']  // Optional: Updated languages
 }
 
 const newsletter = {
@@ -32,7 +32,7 @@ const social = [
         icon: 'email',
         link: 'mailto:moetez.amara.am@gmail.com',
     },
-    
+    {
     name: 'Whatsapp',
     icon: 'whatsapp',
     link: 'https://wa.link/yvetp5',
