@@ -105,7 +105,7 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'National Engineering School of Carthage',
+                name: 'National Engineering School',
                 description: <>Bachelor's Degree in Industrial and Logistics Systems Engineering, focused on production optimization and renewable energy systems.</>,
             }
         ]
