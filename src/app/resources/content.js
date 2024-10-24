@@ -12,34 +12,28 @@ const person = {
     languages: ['English', 'French', 'Arabic']  // Optional: Updated languages
 }
 
-const newsletter = {
-    display: true,
-    title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about engineering, technology, and share thoughts on digital transformation and sustainable production systems.</>
-}
+
 
 const social = [
     // Updated Links to reflect personal accounts
-    {
-        name: 'GitHub',
-        icon: 'github',
-        link: 'https://github.com/moetezamara',
-    },
+    
     {
         name: 'LinkedIn',
         icon: 'linkedin',
         link: 'https://www.linkedin.com/in/amaramoetez/',
     },
-    {
-        name: 'X',
-        icon: 'x',
-        link: 'https://x.com/moetezamara',
-    },
+    
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:amaramoetez@outlook.com',
+        link: 'mailto:moetez.amara.am@gmail.com',
     },
+    {
+        name: 'WhatsApp',
+        icon: 'whatsapp',
+        link: 'wa.link/i6azpg', // replace "your_phone_number" with your actual phone number in international format (e.g., 1234567890)
+    }
+    
 ]
 
 const home = {
@@ -63,7 +57,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com/moetez'
+        link: 'https://cal.httpscom/moetez'
     },
     intro: {
         display: true,
@@ -161,28 +155,6 @@ const work = {
     // All projects will be listed on the /home and /work routes
 }
 
-const gallery = {
-    label: 'Gallery',
-    title: 'My photo gallery',
-    description: `A photo collection by ${person.name}`,
-    // Images from personal projects or professional work
-    images: [
-        { 
-            src: '/images/gallery/moetez-01.jpg', 
-            alt: 'Solar Panel Installation',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/moetez-02.jpg', 
-            alt: 'Control Panel Setup',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/moetez-03.jpg', 
-            alt: 'ERP Workshop',
-            orientation: 'vertical'
-        }
-    ]
-}
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+
+export { person, social,  home, about, blog, work };
