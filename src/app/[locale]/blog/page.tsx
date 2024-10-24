@@ -1,6 +1,6 @@
 import { Flex, Heading } from '@/once-ui/components';
 import { Posts } from '@/components/blog/Posts';
-import { baseURL, renderContent } from '@/app/resources'
+import { baseURL, renderContent } from '@/app/resources';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 

@@ -32,12 +32,16 @@
 	},
 	"devDependencies": {
 		"@csstools/postcss-global-data": "^2.1.1",
+		"@eslint/js": "^9.13.0",
 		"@types/cookie": "^0.6.0",
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
+		"eslint": "^9.13.0",
+		"globals": "^15.11.0",
 		"postcss-custom-media": "^10.0.7",
 		"postcss-flexbugs-fixes": "^5.0.2",
-		"typescript": "^5"
+		"typescript": "^5",
+		"typescript-eslint": "^8.11.0"
 	}
 }
