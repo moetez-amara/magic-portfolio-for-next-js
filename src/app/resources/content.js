@@ -39,7 +39,7 @@ const social = [
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
+    description: `Engineering and tech projects by ${person.name}`,
     headline: <>Industrial Systems Engineer and Innovator</>,
     subline: <>I'm {person.firstName}, an engineer specializing in production systems at <InlineCode>Kumulus Water</InlineCode>, where I craft efficient processes and digital solutions. After hours, I work on my personal projects and research sustainable engineering.</>
 }
@@ -57,7 +57,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.httpscom/moetez'
+        link: 'https://cal.com/moetez-amara-o7zoog'
     },
     intro: {
         display: true,
