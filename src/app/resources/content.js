@@ -8,8 +8,8 @@ const person = {
     },
     role:      'Industrial Systems Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Africa/Tunis',        // Updated to reflect your location
-    languages: ['English', 'French', 'Arabic']  // Optional: Updated languages
+    //location:  'Africa/Tunis',        // Updated to reflect your location
+    languages: ['English: professional proficiency', 'French: professional proficiency', 'Arabic: Nativ']  // Optional: Updated languages
 }
 
 const newsletter = {
@@ -20,25 +20,17 @@ const newsletter = {
 
 const social = [
     // Updated Links to reflect personal accounts
-    {
-        name: 'GitHub',
-        icon: 'github',
-        link: 'https://github.com/moetezamara',
-    },
+   
     {
         name: 'LinkedIn',
         icon: 'linkedin',
         link: 'https://www.linkedin.com/in/amaramoetez/',
     },
-    {
-        name: 'X',
-        icon: 'x',
-        link: 'https://x.com/moetezamara',
-    },
+   
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:amaramoetez@outlook.com',
+        link: 'mailto:moetez.amara.am@gmail.com',
     },
 ]
 
@@ -63,7 +55,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com/moetez'
+        link: 'https://cal.com/moetez-amara-o7zoog'
     },
     intro: {
         display: true,
