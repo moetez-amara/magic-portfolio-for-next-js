@@ -32,6 +32,11 @@ const social = [
         icon: 'email',
         link: 'mailto:moetez.amara.am@gmail.com',
     },
+    
+    name: 'Whatsapp',
+    icon: 'whatsapp',
+    link: 'https://wa.link/yvetp5',
+},
 ]
 
 const home = {
