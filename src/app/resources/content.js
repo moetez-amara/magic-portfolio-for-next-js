@@ -1,45 +1,44 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Moetez',
+    lastName:  'Amara',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Industrial Systems Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Africa/Tunis',        // Updated to reflect your location
+    languages: ['English', 'French', 'Arabic']  // Optional: Updated languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I occasionally write about engineering, technology, and share thoughts on digital transformation and sustainable production systems.</>
 }
 
 const social = [
-    // Links are automatically displayed.
-    // Import new icons in /once-ui/icons.ts
+    // Updated Links to reflect personal accounts
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/moetezamara',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/amaramoetez/',
     },
     {
         name: 'X',
         icon: 'x',
-        link: '',
+        link: 'https://x.com/moetezamara',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:amaramoetez@outlook.com',
     },
 ]
 
@@ -47,8 +46,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Industrial Systems Engineer and Innovator</>,
+    subline: <>I'm {person.firstName}, an engineer specializing in production systems at <InlineCode>Kumulus Water</InlineCode>, where I craft efficient processes and digital solutions. After hours, I work on my personal projects and research sustainable engineering.</>
 }
 
 const about = {
@@ -64,43 +63,43 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://cal.com/moetez'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Moetez is a Tunis-based industrial systems engineer passionate about transforming production systems and supply chain processes. His work spans ERP implementation, digital transformation, and improving industrial operations.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Kumulus Water',
+                timeframe: '2024 - Present',
+                role: 'ERP and Supply Chain Specialist',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Customized Odoo's accounting module to integrate predictive analytics for financial forecasting, resulting in a 25% improvement in cash flow predictability.</>,
+                    <>Developed data visualization dashboards that improved inventory monitoring and reduced procurement cycle time by 15%.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        src: '/images/projects/kumulus-01.jpg',
+                        alt: 'Kumulus Water ERP Implementation',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'King Energy',
+                timeframe: '2023 - 2024',
+                role: 'Team Leader',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Directed a team to deploy over 100 kWc of solar power, providing renewable energy to over 30 residential and commercial sites, improving installation timelines by 15%.</>,
+                    <>Implemented an Odoo CRM system to improve client relations and project tracking, increasing customer satisfaction by 25%.</>
                 ],
-                images: [ ]
+                images: []
             }
         ]
     },
@@ -109,12 +108,8 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
-            },
-            {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'National Engineering School of Carthage',
+                description: <>Bachelor's Degree in Industrial and Logistics Systems Engineering, focused on production optimization and renewable energy systems.</>,
             }
         ]
     },
@@ -123,33 +118,27 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Odoo ERP',
+                description: <>Proficient in customizing and deploying Odoo ERP for inventory management, financial forecasting, and supply chain optimization.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
+                        src: '/images/projects/odoo-customization.jpg',
+                        alt: 'Odoo Customization Project',
                         width: 16,
                         height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
+                    }
                 ]
             },
             {
                 title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                description: <>Experience building scalable web applications using Next.js, integrated with various back-end systems.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
+                        src: '/images/projects/nextjs-project.jpg',
+                        alt: 'Next.js Project',
                         width: 16,
                         height: 9
-                    },
+                    }
                 ]
             }
         ]
@@ -158,7 +147,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
+    title: 'Writing about engineering and technology...',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -167,7 +156,7 @@ const blog = {
 const work = {
     label: 'Work',
     title: 'My projects',
-    description: `Design and dev projects by ${person.name}`
+    description: `Engineering and tech projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
 }
@@ -176,78 +165,23 @@ const gallery = {
     label: 'Gallery',
     title: 'My photo gallery',
     description: `A photo collection by ${person.name}`,
-    // Images from https://pexels.com
+    // Images from personal projects or professional work
     images: [
         { 
-            src: '/images/gallery/img-01.jpg', 
-            alt: 'image',
+            src: '/images/gallery/moetez-01.jpg', 
+            alt: 'Solar Panel Installation',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-02.jpg', 
-            alt: 'image',
+            src: '/images/gallery/moetez-02.jpg', 
+            alt: 'Control Panel Setup',
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-03.jpg', 
-            alt: 'image',
+            src: '/images/gallery/moetez-03.jpg', 
+            alt: 'ERP Workshop',
             orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-04.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-05.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-06.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-07.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-08.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-09.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-10.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-11.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        }
     ]
 }
 
