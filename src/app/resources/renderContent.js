@@ -9,12 +9,11 @@ const renderContent = (t) => {
         return {
             person,
             social,
-            newsletter,
             home,
             about,
             blog,
             work,
-            gallery
+            
         }
     }
 };

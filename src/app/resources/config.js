@@ -14,7 +14,7 @@ const routes = {
     '/about':   true,
     '/work':    true,
     '/blog':    true,
-    '/gallery': true,
+    
 }
 
 // Enable password protection on selected routes
@@ -46,13 +46,6 @@ const display = {
     time:     true
 }
 
-const mailchimp = {
-    action: 'https://url/subscribe/post?parameters',
-    effects: {
-        gradient: true,
-        dots:     false,
-        lines:    true,
-    }
-}
 
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, i18n, i18nOptions };
+
+export { routes, protectedRoutes, effects, style, display, baseURL, i18n, i18nOptions };
